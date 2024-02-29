@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - projectile
+  - FxTemporaire
+  - Przycisk1
+  - Przycisk2
+  - Podpowiedz1
+  - Podpowiedz2
+  - Przycisk3
+  - Podpowiedz3
+  - Przycisk4
+  - Podpowiedz4
+  - Przycisk5
+  - Podpowiedz5
   layers:
   - Default
   - TransparentFX
