@@ -43,6 +43,7 @@ public class ScriptGameManager : MonoBehaviour
         questQueue.Enqueue(new Quest("Przejdzmy teraz do panelu steru strumieniowego. Na poczatku zapoznaj sie z przyciskiem, za pomoca ktorego mozesz rowniez awaryjnie wylaczyc silnik. Na statku istnieje zasada, ktora mowi ze najwazniejsze urzadzenia na mostku musza byc co najmniej po dwie sztuki, w razie awarii pierwszej. Nacisnij ten przycisk.", "Przycisk3", "Podpowiedz3"));
         questQueue.Enqueue(new Quest("Teraz przejdzmy do samego panelu steru strumieniowego. Panel ten pozwala nam na manerwowanie statkiem na boki, najczesciej uzywamy go w momencie kiedy cumujemy do portu. Specjalna wajcha regulujemy moc oraz kierunek w jaka statek ma sie obracac", "Przycisk4", "Podpowiedz4"));
         questQueue.Enqueue(new Quest("Obok panelu steru strumieniowego, ktory rowniez znajduje sie po drugiej stronie mostku, znajduje sie zyrokompas. Wskazuje kurs, wykorzystujac wlasciwoski zyroskopu. Nacisnij go by przejsc do nastepnego zadania", "Przycisk5", "Podpowiedz5"));
+        questQueue.Enqueue(new Quest("Juz wiesz, gdzie znajduje sie zyrokompas, za twoimi plecami znajduje sie cala telekomunikacja, ktora jest odpowiedzialna za wszelka komunikacje z ladem w razie awarii lub jakiejkolwiek kolizji czy tez wypadku. To tutaj marynarze wydaja znane wszystkim polecenie SOS. Zielone urzadzenie to radio telefon inaczej GMDSS, a dwa takie same urzadzenia koloru czarnego oraz niebieskiego sa to stacje innarsat drukujaca faksy.", "Przycisk6", "Podpowiedz6"));
 
 
         foreach (Quest zadanie in questQueue) {

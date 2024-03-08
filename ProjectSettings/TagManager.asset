@@ -16,6 +16,8 @@ TagManager:
   - Podpowiedz4
   - Przycisk5
   - Podpowiedz5
+  - Przycisk6
+  - Podpowiedz6
   layers:
   - Default
   - TransparentFX
