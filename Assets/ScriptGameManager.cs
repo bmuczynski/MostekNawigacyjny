@@ -8,6 +8,8 @@ public class ScriptGameManager : MonoBehaviour
     // Singleton instance
     public static ScriptGameManager instance;
 
+    public List<OnboardingTask> tasks;
+
     // UI Text for quest description
     private string questDescriptionText;
 
