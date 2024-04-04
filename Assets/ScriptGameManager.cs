@@ -65,6 +65,7 @@ public class ScriptGameManager : MonoBehaviour
         else
         {
             print("Nie ma wiecej taskow");
+            Application.Quit();
         }
 
 
