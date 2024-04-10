@@ -11,19 +11,9 @@ public class ScriptGameManager : MonoBehaviour
     public List<OnboardingTask> tasks;
     public OnboardingTask activeTask;
     public int TaskNumber;
-    // UI Text for quest description
-    //private string questDescriptionText;
-
-    // Quests
-   // private Queue<Quest> questQueue = new Queue<Quest>();
-   // private Quest currentQuest;
-   // private Dictionary<string, GameObject> objectsByTag = new Dictionary<string, GameObject>();
-
-
-    // Start is called before the first frame update
     void Start()
     {
-        TaskNumber = 0; //dajemy wartosc tasknumber na 0
+        TaskNumber = 0;
         if (instance == null)
         {
             instance = this;
