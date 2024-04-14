@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: 080d4cc47dab2da4890a438d57428206
+    path: Assets/Scenes/New Menu.unity
+    guid: b3d570cccee73cc4c82f3d03cf325bd5
   - enabled: 1
     path: Assets/Scenes/mostek.unity
     guid: a077b7bf1d868934597910bb1f45d5e0

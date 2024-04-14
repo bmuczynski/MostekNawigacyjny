@@ -32,8 +32,10 @@ public class OnboardingTask : MonoBehaviour
         QuestText.gameObject.SetActive(false);
         ObjectToShow.gameObject.SetActive(false);
         HintToShow.gameObject.SetActive(false);
-        IsTaskCompleted.Invoke();      
-
+        IsTaskCompleted.Invoke();
+        ObjectToClick.gameObject.SetActive(false);
+       
+        GetComponent<AudioSource>().Play(); 
     }
 
     public void InitializeTask()
