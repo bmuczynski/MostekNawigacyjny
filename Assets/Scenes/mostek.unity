@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -659,7 +659,7 @@ PrefabInstance:
     - target: {fileID: 114000013988111622, guid: 88075a54c7fb1484ba25db394b612917, type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 405362849}
+      objectReference: {fileID: 1084927763}
     - target: {fileID: 114000013988111622, guid: 88075a54c7fb1484ba25db394b612917, type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -783,15 +783,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 978d06a638a67844ba0f84ef577e6354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questName: Test
-  Description: Witaj w symulatorze mostka nawigacyjnego. Tutaj masz szanse w bezpieczny
-    sposob sprawdzic swoja wiedze na temat najistotniejszych urzadzen nawigacyjnych,
-    za pomoca ktorych statek bez problemu moze przeplywac przez morze. Jezeli jestes
-    w tym nowy i nigdy nie miales z tym do czynienia, to nie martw sie, poniewaz
-    wszystkiego tutaj sie nauczysz. Twoim glownym zadaniem bedzie obsluga przyciskow
-    na mostku nawigacyjnym zgodnie z instrukcjami systemu. Jezeli bedziesz gotow,
-    wcisnij niebieski przycisk wskazany przez rozowy ostroslup, ktory w pozniejszym
-    etapie bedzie ci sluzyc jako podpowiedz do przyciskow. Powodzenia!
+  questName: Entry
+  Description: "Witaj w symulatorze mostka nawigacyjnego. Tutaj masz szanse w bezpieczny
+    spos\xF3b sprawdzi\u0107 swoj\u0105 wiedz\u0119 na temat najistotniejszych urz\u0105dze\u0144
+    nawigacyjnych, za pomoc\u0105 kt\xF3rych statek bez problemu mo\u017Ce przep\u0142ywa\u0107
+    przez morze. Je\u017Celi jeste\u015B w tym nowy i nigdy nie mia\u0142e\u015B
+    z tym do czynienia, to nie martw si\u0119, poniewa\u017C wszystkiego tutaj si\u0119
+    nauczysz. Twoim g\u0142\xF3wnym zadaniem b\u0119dzie obs\u0142uga przycisk\xF3w
+    na mostku nawigacyjnym zgodnie z instrukcjami systemu. Je\u017Celi b\u0119dziesz
+    got\xF3w, wci\u015Bnij niebieski przycisk wskazany przez r\xF3\u017Cow\u0105
+    strza\u0142k\u0119, kt\xF3re w p\xF3\u017Aniejszym etapie b\u0119d\u0105 ci s\u0142u\u017Cy\u0107
+    jako podpowied\u017A do przycisk\xF3w. Powodzenia!"
   ObjectToClick: {fileID: 1776398112}
   isActive: 0
   ObjectToShow: {fileID: 1556903975}
@@ -1033,7 +1035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Ster strumieniowy
-  Description: Dotknij przycisku od steru strumieniowego
+  Description: Dotknij przycisku od steru strumieniowego.
   ObjectToClick: {fileID: 247235595}
   isActive: 0
   ObjectToShow: {fileID: 1054925950}
@@ -1181,8 +1183,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Test
-  Description: 'Na koniec, cos co jest istotnym elementem podczas jakiejkolwiek podrozy
-    czyli autopilot, nacisnij go. '
+  Description: "Na koniec, co\u015B co jest istotnym elementem podczas jakiejkolwiek
+    podr\xF3\u017Cy, czyli autopilot. Naci\u015Bnij go. "
   ObjectToClick: {fileID: 1816756453}
   isActive: 0
   ObjectToShow: {fileID: 1939399186}
@@ -2929,13 +2931,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Test
-  Description: To juz koniec wszystkich zadan. Jezeli udalo ci sie dojsc do tego
-    etapu symulatora, oznacza to ze swietnie sobie poradziles ze wszystkimi zadaniami,
-    ktore system ci podal. Masz teraz czas zeby swobodnie pochodzic po calym mostku
-    i popatrzec na reszte przyciskow, ktorych i tak jest naprawde sporo i ciezko
-    je zapamietac na raz. Gdy ci sie juz znudzi, nacisnij przycisk ponizej dzieki
-    ktoremu symulator sam sie wylaczy. Dziekuje bardzo za poswiecony czas i mam nadzieje
-    ze symulator spelnil wszelkie twoje oczekiwania!
+  Description: "To ju\u017C koniec wszystkich zada\u0144. Je\u017Celi uda\u0142o
+    ci si\u0119 doj\u015B\u0107 do tego etapu symulatora, oznacza to, \u017Ce \u015Bwietnie
+    sobie poradzi\u0142e\u015B ze wszystkimi zadaniami, kt\xF3re system ci wskaza\u0142.
+    Masz teraz czas \u017Ceby swobodnie pochodzi\u0107 po ca\u0142ym mostku i popatrze\u0107
+    na reszt\u0119 przycisk\xF3w, kt\xF3rych i tak jest naprawd\u0119 sporo i ci\u0119\u017Cko
+    je zapamieta\u0107 na raz. Gdy ci si\u0119 ju\u017C znudzi, naci\u015Bnij przycisk
+    poni\u017Cej dzi\u0119ki kt\xF3remu symulator sam si\u0119 wy\u0142\u0105czy.
+    Dzi\u0119kuje bardzo za po\u015Bwi\u0119cony czas i mam nadziej\u0119, \u017Ce
+    symulator spe\u0142ni\u0142 wszelkie twoje oczekiwania!"
   ObjectToClick: {fileID: 237140230}
   isActive: 0
   ObjectToShow: {fileID: 1566382055}
@@ -3143,8 +3147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Test
-  Description: 'Aby ostrzec inne statki, nalezy uzyc sygnalu dzwiekowego "whistle".
-    Nacisnij go '
+  Description: "Aby ostrzec inne statki, nale\u017Cy u\u017Cy\u0107 sygna\u0142u
+    d\u017Awi\u0119kowego \"whistle\" lub \"syfon\". Naci\u015Bnij go."
   ObjectToClick: {fileID: 976662356}
   isActive: 0
   ObjectToShow: {fileID: 591850539}
@@ -3963,8 +3967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Test
-  Description: Za to po prawej stronie obydwa urzadzenia to sa systemy inmarsat.
-    Nacisnij przycisk srodkowego panelu.
+  Description: "Za to po prawej stronie obydwa urz\u0105dzenia to s\u0105 systemy
+    inmarsat. Naci\u015Bnij przycisk \u015Brodkowego panelu."
   ObjectToClick: {fileID: 130704105}
   isActive: 0
   ObjectToShow: {fileID: 754028314}
@@ -4228,9 +4232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 978d06a638a67844ba0f84ef577e6354, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questName: Test
-  Description: "Teraz przejdzmy do sekcji telekomunikacyjnej. Po lewej stronie znajduje
-    si\u0119 system GMDSS. Nacisnij go. "
+  questName: GMDSS
+  Description: "Teraz przejd\u017Amy do sekcji telekomunikacyjnej. Po lewej stronie
+    znajduje si\u0119 system GMDSS. Naci\u015Bnij go. "
   ObjectToClick: {fileID: 216868379}
   isActive: 0
   ObjectToShow: {fileID: 1743048881}
@@ -4466,7 +4470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Test
-  Description: Nacisnij przycisk od panelu obslugujacego radar
+  Description: "Naci\u015Bnij przycisk od panelu obs\u0142uguj\u0105cego radar."
   ObjectToClick: {fileID: 1466295074}
   isActive: 0
   ObjectToShow: {fileID: 1289870633}
@@ -5170,7 +5174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Silnik glowny
-  Description: "Wcisnij przycisk od g\u0142ownego panelu silnika"
+  Description: "Wci\u015Bnij przycisk od g\u0142\xF3wnego panelu silnika."
   ObjectToClick: {fileID: 431219069}
   isActive: 0
   ObjectToShow: {fileID: 592774640}
@@ -5874,7 +5878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000014195058408, guid: 88075a54c7fb1484ba25db394b612917, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.8156
+      value: 4.8192
       objectReference: {fileID: 0}
     - target: {fileID: 4000014195058408, guid: 88075a54c7fb1484ba25db394b612917, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5939,7 +5943,7 @@ PrefabInstance:
     - target: {fileID: 114000013988111622, guid: 88075a54c7fb1484ba25db394b612917, type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 405362849}
+      objectReference: {fileID: 250897171}
     - target: {fileID: 114000013988111622, guid: 88075a54c7fb1484ba25db394b612917, type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -7201,8 +7205,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Test
-  Description: W razie awarii silnika, mozesz go awaryjnie wylaczyc. Wcisnij wskazany
-    przycisk
+  Description: "W razie awarii silnika, mo\u017Cesz go awaryjnie wy\u0142\u0105czy\u0107.
+    Wci\u015Bnij wskazany przycisk."
   ObjectToClick: {fileID: 246990333}
   isActive: 0
   ObjectToShow: {fileID: 1484603258}
@@ -7912,7 +7916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questName: Pompa
-  Description: Wcisnij przycisk od glownego panelu pomp
+  Description: "Wci\u015Bnij przycisk od g\u0142\xF3wnego panelu pomp."
   ObjectToClick: {fileID: 482507278}
   isActive: 0
   ObjectToShow: {fileID: 104203920}
