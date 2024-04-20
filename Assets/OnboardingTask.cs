@@ -24,7 +24,7 @@ public class OnboardingTask : MonoBehaviour
        
     }
 
-    // Method to mark the quest as completed
+   
     public void Complete()
     {
         print("Task zakonczony");

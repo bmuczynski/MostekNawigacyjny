@@ -28,34 +28,33 @@ public class ScriptGameManager : MonoBehaviour
         
     }
 
-    // Method to initialize quests
+    
     void InitializeQuests()
     {
-        activeTask = tasks[TaskNumber]; //gamemanager sprawdza ktory task jest aktywny 
-        activeTask.InitializeTask();    //aktywny task aktywuje metode initalizetask
-        activeTask.IsTaskCompleted += ShowNextQuest; //subkrypcja wydarzen
+        activeTask = tasks[TaskNumber]; 
+        activeTask.InitializeTask();   
+        activeTask.IsTaskCompleted += ShowNextQuest; 
         
 
     }
 
-    // Method to show the next quest
     void ShowNextQuest()
     {
-        activeTask.IsTaskCompleted -= ShowNextQuest; //unsubksrypcja wydarzen
-        TaskNumber++; //dodajemy numer taska jeden w gore, jako ze jest to nowy task
+        activeTask.IsTaskCompleted -= ShowNextQuest; 
+        TaskNumber++;
 
         if (TaskNumber < tasks.Count)
         {
             OnboardingTask onboardingTask = tasks[TaskNumber];
-            activeTask = onboardingTask;
+            activeTask = onboardingTask
             activeTask.InitializeTask();
             activeTask.IsTaskCompleted += ShowNextQuest;
-        }
+    }
 
         else
         {
             print("Nie ma wiecej taskow");
-            Application.Quit();
+    Application.Quit();
         }
 
 

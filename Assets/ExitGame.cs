@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Valve.VR.InteractionSystem
 {
-    public class ExitGame : MonoBehaviour
+    public class ExitGame : UIElement
     {
         private void OnTriggerEnter(Collider other)
         {
