@@ -46,7 +46,7 @@ public class ScriptGameManager : MonoBehaviour
         if (TaskNumber < tasks.Count)
         {
             OnboardingTask onboardingTask = tasks[TaskNumber];
-            activeTask = onboardingTask
+            activeTask = onboardingTask;
             activeTask.InitializeTask();
             activeTask.IsTaskCompleted += ShowNextQuest;
     }
