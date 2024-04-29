@@ -1,8 +1,6 @@
-using JetBrains.Annotations;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class ScriptGameManager : MonoBehaviour
 {
@@ -54,7 +52,7 @@ public class ScriptGameManager : MonoBehaviour
         else
         {
             print("Nie ma wiecej taskow");
-    Application.Quit();
+        Application.Quit();
         }
 
 

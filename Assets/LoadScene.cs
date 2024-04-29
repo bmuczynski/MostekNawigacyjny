@@ -1,5 +1,3 @@
-//======= Copyright (c) Valve Corporation, All rights reserved. ===============
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,10 +11,10 @@ namespace Valve.VR.InteractionSystem.Sample
         {
             base.OnButtonClick();
 
-            // SprawdŸ, czy nazwa sceny zosta³a ustawiona
+           
             if (!string.IsNullOrEmpty(sceneToLoad))
             {
-                // Za³aduj now¹ scenê
+               
                 SceneManager.LoadScene(sceneToLoad);
             }
             else
